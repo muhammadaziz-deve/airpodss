@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffff;
+}
+
+body {
+  background-color: #151511;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+.wrapp {
+  background-color: #151511;
+}
+
+.navbar {
+  background-color: #282828;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.navbar-menu,
+.navbar-icon {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-link {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.fa-solid {
+  font-style: 20px;
+}
+
+.header {
+  height: 635px;
+  background: url(images/Header.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.header h1 {
+  font-size: 100px;
+  font-weight: 400px;
+  font-style: italic;
+}
+
+.header button {
+  font-size: 20px;
+  padding: 13px 14px;
+  background-color: #fff;
+  color: #171718;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.fa-arrow-up-right-from-square {
+  color: #171718;
+  font-size: 15px;
+}
+
+.airpods {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.airpods-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.airpods-content p {
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.airpods p {
+  max-width: 540px;
+}
+
+.airpods3 {
+  max-width: 333px;
+}
+.airpods .right-text {
+  text-align: right;
+}
+
+.iphone11 {
+  width: 255px;
+  height: 312px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #171718;
+  background-color: #fff;
+  border-radius: 6px;
+}
+
+.iphones .container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  background-color: #151511;
+}
+
+.navbar .navbar {
+  color: #fff;
+}
+
+.iphones button {
+  width: 161px;
+  height: 34px;
+  background-color: #151511;
+}
+
+.iphones {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.navbar-m .container {
+  width: 1100px;
+  height: 215px;
+  color: #fff;
+}
+
+.iphone11 h2{
+  margin-top: 10px;
+  color: #151511;
+  font-size: 20px;
+}
+
+.iphone11 h4{
+  color: #151511;
+  font-size: 20px;
+}
+
+.iphone11 button{
+  font-size: 20px;
+}
+
+.nnn{
+  display: flex;
+  justify-content: center;  
+  padding-top: 10px;
+}
